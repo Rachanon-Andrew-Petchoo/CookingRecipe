@@ -6,6 +6,7 @@ class google_cloud_vision_api:
 
     def __init__(self):
         # Get the Google API key
+        # Generate your own key when using this API. The provided key is revoked so that it can be made public.
         os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = './ingredientsSearch/google-api-key.json'
         # Setup the caller
         self.client = vision.ImageAnnotatorClient()
