@@ -49,7 +49,7 @@ def test_get_missed_ingredients_description():
     sp.search_recipe_by_ingredients("apples, bananas")
     assert sp.get_missed_ingredients_description(0) == ['1 tbsp Peanut Butter (Natural Peanut Butter)']
 
-def test_get_missed_ingredients_image();
+def test_get_missed_ingredients_image():
     sp.search_recipe_by_ingredients("apples, bananas")
     assert sp.get_missed_ingredients_image(0) == ['https://spoonacular.com/cdn/ingredients_100x100/peanut-butter.png']
 
